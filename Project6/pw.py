@@ -15,8 +15,8 @@
 # pw.py - An insecure password locker program.
 
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
-                          'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',
-                          'luggage': '12345'}
+             'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',
+             'luggage': '12345'}
 
 #
 # The command line arguments will be stored in the variable sys.argv.
@@ -53,22 +53,4 @@ else:
     print('There is no account named ' + account)
 
 print('Your password is: ' + pyperclip.paste())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
