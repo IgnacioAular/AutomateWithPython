@@ -23,9 +23,9 @@ def passwordStrength(psw):
     """
 
     eightLong = re.compile(r'[\w\d\s\W\D\S]{8,}')  # check for 8 chars
-    upperCase = re.compile(r'[A-Z]+')                   # check for upper cases
-    lowerCase = re.compile(r'[a-z]+')                    # check for lower cases
-    oneOrMoreDigit = re.compile(r'\d+')                # check for one or more digits
+    upperCase = re.compile(r'[A-Z]+')              # check for upper cases
+    lowerCase = re.compile(r'[a-z]+')              # check for lower cases
+    oneOrMoreDigit = re.compile(r'\d+')            # check for one or more digits
     
     if not eightLong.search(psw):
         return False
@@ -35,8 +35,9 @@ def passwordStrength(psw):
         return False
     elif not oneOrMoreDigit.search(psw):
         return False
-    return True    
+    return True
 
 if __name__ == "__main__":
     psw = 'B/qwerty8#-'
     print(passwordStrength(psw))
+
