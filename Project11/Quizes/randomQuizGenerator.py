@@ -1,7 +1,7 @@
 
 # Developer: Ignacio Aular
 # ignacio345@gmail.com
-# Tue Jun 2, 11:00 PM
+# Thu Jun 18, 8:27 PM
 
 #! python3
 # randomQuizGenerator.py - Creates quizzes with questions
