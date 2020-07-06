@@ -2,7 +2,7 @@
 
 # Developer: Ignacio Aular
 # ignacio345@gmail.com
-# Mon Jul 6, 8:36 AM
+# Mon Jul 6, 1:48 PM
 
 # downloadXkcd.py - Downloads every single XKCD comic
 
